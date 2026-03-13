@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "🔎 Verificando dependências (M4 / 16GB friendly)"
+echo "🔎 Verificando dependências"
 
 echo "🧪 Android + KMP (debug only)"
 ./gradlew assembleDebug \

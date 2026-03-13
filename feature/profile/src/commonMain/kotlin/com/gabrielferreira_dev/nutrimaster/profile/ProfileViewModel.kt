@@ -53,9 +53,7 @@ class ProfileViewModel(
         viewModelScope.launch {
             try {
                 customerRepository.refreshCustomerInfo()
-            } catch (e: Exception) {
-
-            }
+            } catch (e: Exception){}
         }
     }
 

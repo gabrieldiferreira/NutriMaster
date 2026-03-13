@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "814173422294-ki6p1pb8cmpepembrgg2ig5d64bd9gp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gabrielferreira_dev.nutrimaster",
+            "certificate_hash": "09df720c20c7df9080f4cab8f9112ffa1e91827c"
+          }
+        },
+        {
           "client_id": "814173422294-43tcj3j915vi6vf0k39obre1sdgpm45c.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,6 +37,13 @@
             {
               "client_id": "814173422294-43tcj3j915vi6vf0k39obre1sdgpm45c.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "814173422294-417v81bmv1eo2tr16h0gntpb8dqh7oov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gabrielferreira-dev.nutrimaster"
+              }
             }
           ]
         }

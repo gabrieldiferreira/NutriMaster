@@ -12,6 +12,13 @@ import androidx.compose.ui.graphics.Color
     val Green = Color(0xFF2CAA6D)
     val White = Color(0xFFFFFFFF)
     val Red = Color(0xFFF24C00)
+    val Purple = Color(0xFF8E44AD)
+
+    val CategoryYellow = Yellow
+    val CategoryBlue = Blue
+    val CategoryGreen = Green
+    val CategoryPurple = Purple
+    val CategoryRed = Red
 
     val Surface = White
     val SurfaceLighter = GrayLighter
@@ -39,4 +46,3 @@ import androidx.compose.ui.graphics.Color
     val IconPrimary = Black
     val IconSecondary = Blue
     val IconWhite = White
- 

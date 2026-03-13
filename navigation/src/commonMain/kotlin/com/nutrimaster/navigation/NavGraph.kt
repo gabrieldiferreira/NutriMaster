@@ -8,6 +8,7 @@ import com.gabrielferreira_dev.nutrimaster.home.HomeGraphScreen
 import com.gabrielferreira_dev.nutrimaster.profile.ProfileScreen
 import com.nutrimaster.auth.AuthScreen
 import com.nutrimaster.shared.navigation.Screen
+import com.nutrisport.admin_panel.AdminPanelScreen
 
 
 @Composable
@@ -37,11 +38,23 @@ fun SetupNavGraph(startDestination: Screen = Screen.Auth){
                     navController.navigate(Screen.Profile){
                         popUpTo<Screen.Profile> { inclusive = true}
                     }
+                },
+                navigateToAdminPanel = {
+                    navController.navigate(Screen.AdminPanel) {
+                        popUpTo<Screen.AdminPanel> { inclusive = true }
+                    }
                 }
             )
         }
         composable<Screen.Profile> {
             ProfileScreen(
+                navigateBack = {
+                    navController.navigateUp()
+                }
+            )
+        }
+        composable<Screen.AdminPanel> {
+            AdminPanelScreen(
                 navigateBack = {
                     navController.navigateUp()
                 }
