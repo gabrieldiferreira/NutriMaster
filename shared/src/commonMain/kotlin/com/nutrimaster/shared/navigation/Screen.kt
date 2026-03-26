@@ -4,6 +4,11 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 sealed class Screen {
+
+    @Serializable
+    data class ManageProduct(
+        val id: String? = null,
+    ): Screen()
     @Serializable
     data object Auth: Screen()
     @Serializable

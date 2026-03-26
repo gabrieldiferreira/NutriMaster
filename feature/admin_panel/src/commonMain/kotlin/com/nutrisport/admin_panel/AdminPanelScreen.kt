@@ -16,12 +16,14 @@ import com.nutrimaster.shared.IconPrimary
 import com.nutrimaster.shared.Resources
 import com.nutrimaster.shared.Surface
 import com.nutrimaster.shared.TextPrimary
+import com.nutrimaster.shared.domain.Product
 import org.jetbrains.compose.resources.painterResource
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AdminPanelScreen (
-    navigateBack: () -> Unit
+    navigateBack: () -> Unit,
+    navigateToManageProduct: (String?) -> Unit
 ) {
     Scaffold(
         containerColor = Surface,
@@ -55,7 +57,7 @@ fun AdminPanelScreen (
         },
         floatingActionButton = {
             FloatingActionButton(
-                onClick = {},
+                onClick = {navigateToManageProduct(null)},
                 containerColor = ButtonPrimary,
                 contentColor = IconPrimary,
                 content = {

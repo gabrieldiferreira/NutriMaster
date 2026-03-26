@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "814173422294-ki6p1pb8cmpepembrgg2ig5d64bd9gp5.apps.googleusercontent.com",
+          "client_id": "814173422294-opsts65t7f9no4cg1e56nnhr56gqan58.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.gabrielferreira_dev.nutrimaster",
-            "certificate_hash": "09df720c20c7df9080f4cab8f9112ffa1e91827c"
+            "certificate_hash": "6853c053f757aab420dd3101b85e670bc70c55b9"
           }
         },
         {
